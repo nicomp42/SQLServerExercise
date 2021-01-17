@@ -1,5 +1,4 @@
 /*
- * 
  * Bill Nicholson
  * 
  * nicholdw@ucmail.uc.edu

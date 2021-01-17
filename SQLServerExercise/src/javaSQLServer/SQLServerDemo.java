@@ -8,7 +8,6 @@
  * Convert a Java Project to Maven: https://crunchify.com/how-to-convert-existing-java-project-to-maven-in-eclipse/
  * 
  * JDBC Repository: https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc 
- * 
  */
 package javaSQLServer;
 
