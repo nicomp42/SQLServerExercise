@@ -1,6 +1,7 @@
 /*
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
+ * SQL Server example using JDBC
  * 
 Sample POM file with the JDBC dependency added.
 
