@@ -1,5 +1,7 @@
 /*
+ * 
  * Bill Nicholson
+ * 
  * nicholdw@ucmail.uc.edu
  * SQL Server example using JDBC
  * 
