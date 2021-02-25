@@ -53,8 +53,6 @@ public class Main {
 		System.out.println(words.size() + " words read");
 		performAnalysis(new BoringAnalysis(), words);
 		performAnalysis(new InterestingAnalysis(), words);
-		
-		
 	}
 	/***
 	 * Invoke the interface method 
@@ -64,5 +62,4 @@ public class Main {
 	public static void performAnalysis(Analyze tool, ArrayList<String> wordList) {
 		tool.analyzeAndPrint(wordList);
 	}
-
 }

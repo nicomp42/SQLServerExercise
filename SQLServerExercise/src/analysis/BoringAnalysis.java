@@ -1,3 +1,9 @@
+/*
+ * Bill Nicholson
+ * 
+ * nicholdw@ucmail.uc.edu
+ */
+
 package analysis;
 
 import java.util.ArrayList;
