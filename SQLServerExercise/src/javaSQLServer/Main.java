@@ -41,11 +41,28 @@ Sample POM file with the JDBC dependency added.
 
 package javaSQLServer;
 
+import java.util.ArrayList;
+import analysis.Analyze;
+import analysis.BoringAnalysis;
+import analysis.InterestingAnalysis;
+
 public class Main {
 
 	public static void main(String[] args) {
-		SQLServerDemo.demo();
-
+		ArrayList<String> words = SQLServerDemo.readWords();
+		System.out.println(words.size() + " words read");
+		performAnalysis(new BoringAnalysis(), words);
+		performAnalysis(new InterestingAnalysis(), words);
+		
+		
+	}
+	/***
+	 * Invoke the interface method 
+	 * @param tool Any object from a class that implements the Analyze interface
+	 * @param wordList A list of words to be processed
+	 */
+	public static void performAnalysis(Analyze tool, ArrayList<String> wordList) {
+		tool.analyzeAndPrint(wordList);
 	}
 
 }
